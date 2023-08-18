@@ -1,0 +1,22 @@
+<mat-sidenav-container class="mat-sidenav1">
+
+  <mat-sidenav
+  #sidenav
+  >
+<app-side-nav>
+
+
+</app-side-nav>
+</mat-sidenav>
+
+<mat-sidenav-content role="main">
+  <mat-toolbar color="primary">
+
+  <button (click)="sidenav.toggle()">
+  <mat-icon>menu</mat-icon>
+</button>
+
+  </mat-toolbar>
+
+</mat-sidenav-content>
+</mat-sidenav-container>
